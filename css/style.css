@@ -6,29 +6,34 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 h1 {
 	font-size: 50px;
 }
+
 img {
 	width: 50%;
 	height: auto;
 }
+
 #slogan {
 	color: #fff;
 }
+
 a {
 	color: orange;
 }
+
 a:hover {
 	color: white;
 }
+
 ul {
 	text-align: left;
 	
-	
 }
+
 .centered {
-	
-	margin-left: 40%;
-	
+	width: 146px;
+	margin: 0 auto;
 }
