@@ -1,4 +1,10 @@
 body {
 	background-color: #666;
+	color: orange;
+}
+h1 {
+	font-size: 30px;
+}
+#slogan {
 	color: #fff;
 }
