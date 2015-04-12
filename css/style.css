@@ -33,5 +33,9 @@ ul {
 }
 
 .centered {
-	margin-left: 40%;
+	/* Width of the child UL element, according to JavaScript. Tested in Firefox */
+	width: 146px;
+
+	/* A more common way of centering elements in parents. */
+	margin: 0 auto;
 }
