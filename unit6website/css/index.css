@@ -89,6 +89,16 @@ button {
 	background-color: #7dbd33;
 }
 
+#games {
+	color: #da4075;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+#toys {
+	color: #7dbd33;
+	font-family: 'Luckiest Guy', cursive;
+}
+
 button:hover {
 	color: #ffcc00;
 	cursor: pointer;
