@@ -33,12 +33,11 @@ header h1 {
 	color: orange;
 }
 
-
-
 #bkg-small {
 	position: fixed;
 	min-width: 100%;
-	min-height: 100%;	
+	min-height: 100%;
+	margin: 0 auto;
 }
 
 #arrow {
