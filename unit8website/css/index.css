@@ -1,4 +1,8 @@
 
+html {
+	background-color: #ccc;
+}
+
 body {
 	box-sizing: border-box;
 	font-size: 30px;
@@ -34,12 +38,20 @@ header h1 {
 }
 
 #bkg-small {
+	display: block;
 	position: fixed;
 	top: 3em;
 	min-width: 100%;
 	min-height: 100%;
-	display: block;
 	margin: 0 auto;
+}
+
+#bkg-medium {
+	display: none;
+}
+
+#bkg-large {
+	display: none;
 }
 
 #arrow {
@@ -69,4 +81,60 @@ nav a {
 
 nav a:hover {
 	color: orange;
+}
+
+/* medium size */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+	#bkg-small {
+		display: none;
+	}
+
+	#bkg-medium {
+		display: block;
+		position: fixed;
+		top: 3em;
+		min-width: 100%;
+		min-height: 100%;
+		margin: 0 auto;
+	}
+}
+
+/* large size */
+@media only screen and (min-width: 768px) {
+
+	#bkg-small {
+		display: none;
+	}
+
+	#bkg-medium {
+		display: none;
+	}
+
+	#bkg-large {
+		display: block;
+		position: fixed;
+		top: 3em;
+		min-width: 100%;
+		min-height: 100%;
+		margin: 0 auto;
+	}
+}
+
+/* xlarge size limit body width */
+@media only screen and (min-width: 1440px) {
+
+	#wrapper {
+		width: 1440px;
+		margin: 0 auto;
+	}
+
+	header {
+		width: 1440px;
+	}
+
+	#bkg-large {
+		top: 0;
+		width: 1440px;
+	}
 }
