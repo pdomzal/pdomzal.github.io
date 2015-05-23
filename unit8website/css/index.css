@@ -25,7 +25,7 @@ h1 {
 }
 
 #paul {
-	color: #ccc;
+	color: #bbb;
 }
 
 #domzal {
@@ -61,9 +61,9 @@ h1 {
 
 nav {
 	position: absolute;
-	width: 50%;
+	width: 60%;
 	top: 100%;
-	left: 25%;
+	left: 20%;
 	background-color: rgba(100,100,100,.66);
 }
 
